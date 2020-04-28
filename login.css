@@ -1,0 +1,174 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500&display=swap');
+
+
+
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+html{
+    height: 100vh;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(51deg, rgba(114,199,195,1) 13%, rgba(100,175,68,1) 51%, rgba(5,58,102,1) 100%);
+    position: fixed;
+    top: 0;
+    bottom: 0
+}
+#signup{
+    width: 6%;
+    position: absolute;
+    display: block;
+    height: 31px;
+    border-radius: 25px;
+    margin: 3px 89%;
+    font-size: 12px;
+    outline: none;
+    border: none;
+    background-image: linear-gradient(to right,#47C9E2,#47C9E2,#47C9E2);
+    cursor: pointer;
+    color: #fff;
+    background-size: 200%;
+    transition: .5s;
+    box-shadow: 0px 10px 21px -10px rgba(0,0,0,0.75);
+    font-weight: 500;
+}
+#signup:hover{
+    background: radial-gradient(circle, rgba(114,199,195,1) 0%, rgba(100,175,68,1) 64%, rgba(212,224,16,1) 100%);
+}
+.logo
+{
+    width: 200px;
+    position: absolute;
+}
+
+.container{
+  
+    padding: 5% 10%;
+    width: 78%;
+    
+
+}
+h2{
+    margin: 12px;
+    text-transform: uppercase;
+    
+}
+.form-log{
+    height: 400px;
+    position: relative;
+    z-index: 1;
+    background-color:#E2FFFF;
+    margin: 0 auto 100px;
+    padding: 45px;
+    text-align: center;
+    border-radius: 10px;
+    max-width: 78%;
+    box-shadow: 0px 0px 34px -4px rgba(0,0,0,0.75);
+}
+
+.avatar
+{
+    width: 12%;
+    border-radius: 200px 200px 200px 200px;
+    transition: .5s;
+}
+
+.log{
+    width: 100%;
+    margin-left: 23%;
+    margin-top: 1%;
+}
+.for-pass{
+    margin-left: 26%;
+    display: block;
+    text-decoration: none;
+    color: #01DFD7;
+    font-size: 11px;
+    transition: .3;
+    font-weight: 500;
+    margin-bottom: 9px;
+}
+.for-pass:hover{
+    color: #0B3861
+}
+.form-log input{
+    outline: 1;
+    background: #f2f2f2;
+    width: 300px;
+    border: 0;
+    margin: 0 0 15px;
+    padding: 15px;
+    border-radius: 10px 10px 10px 10px;
+
+
+}
+.hero{
+    width: 450px;
+    position: fixed;
+    margin: 0 0 0 -31%;
+    transition: .5s;
+
+}
+.btn{
+    display: block;
+    width: 30%;
+    height: 50px;
+    border-radius: 25px;
+    margin: 1px 285px;
+    font-size: 1rem;
+    outline: none;
+    border: none;
+    background-image: linear-gradient(to right,#47C9E2,#47C9E2,#47C9E2);
+    cursor: pointer;
+    color: #fff;
+    background-size: 200%;
+    transition: .5s;
+    box-shadow: 0px 10px 21px -10px rgba(0,0,0,0.75);
+    font-weight: bold;
+    text-align: center;
+}
+
+.btn:hover{
+    background: radial-gradient(circle, rgba(0,147,180,1) 0%, rgba(1,167,201,1) 75%, rgba(20,190,228,1) 100%);
+}
+
+.fa {
+    padding: 5px;
+    font-size: 30px;
+    width: 18px;
+    text-align: center;
+    text-decoration: none;
+    margin: 20px 53px 2px -48px;
+    border-radius: 50%;
+    transition: .5s;
+}
+  .fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  .fa-instagram {
+    background: #125688;
+    color: white;
+  }
+  .fa-pinterest {
+    background: #cb2027;
+    color: white;
+  }
+
+  .media{
+      width: 105%;
+      margin-left: 27%;
+  }
+
+
